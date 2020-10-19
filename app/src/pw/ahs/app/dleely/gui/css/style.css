@@ -1,0 +1,54 @@
+/*******************************************************************************
+ Copyright (c) 2014 - Anas H. Sulaiman (ahs.pw)
+
+ This file is part of Dleely.
+ Dleely is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ ******************************************************************************/
+
+.item-list-cell:filled:selected {
+    -fx-background-color: white;
+    -fx-background-radius: 2px;
+    -fx-text-fill: inherit;
+    -fx-effect: innershadow(gaussian, black, 3,0,0,0);
+}
+
+.item-list-cell:filled:selected .item-view .item-name,
+.item-list-cell:filled:selected .item-view .item-ref,
+.item-list-cell:filled:selected .item-view .item-info,
+.item-list-cell:filled:selected .item-view .item-tags,
+.item-list-cell:filled:selected .item-view .item-tags .tag-link,
+.item-list-cell:filled:selected .item-view .item-date-add,
+.item-list-cell:filled:selected .item-view .item-date-mod{
+    -fx-text-fill: black;
+}
+
+.menu-button > .arrow-button > .arrow {
+    -fx-shape: null;
+    -fx-padding: 0;
+    -fx-background-color: null;
+}
+
+.menu-button > .arrow-button {
+    -fx-padding: 0;
+}
+
+.menu-button .graphic {
+    -fx-background-color: black;
+    -fx-shape: "M 1.5996094,1036.3622 C 0.71320934,1036.3622 0,1037.0754 0,1037.9618 c 0,0.8864 0.71320934,1.6006 1.5996094,1.6006 l 12.8007816,0 c 0.8864,0 1.599609,-0.7142 1.599609,-1.6006 0,-0.8864 -0.713209,-1.5996 -1.599609,-1.5996 l -12.8007816,0 z m 0,6.4004 C 0.71320934,1042.7626 0,1043.4758 0,1044.3622 c 0,0.8864 0.71320934,1.5996 1.5996094,1.5996 l 12.8007816,0 c 0.8864,0 1.599609,-0.7132 1.599609,-1.5996 0,-0.8864 -0.713209,-1.5996 -1.599609,-1.5996 l -12.8007816,0 z m 0,6.3994 C 0.71320934,1049.162 0,1049.8762 0,1050.7626 c 0,0.8864 0.71320934,1.5996 1.5996094,1.5996 l 12.8007816,0 c 0.8864,0 1.599609,-0.7132 1.599609,-1.5996 0,-0.8864 -0.713209,-1.6006 -1.599609,-1.6006 l -12.8007816,0 z";
+    -fx-scale-shape: true;
+    -fx-position-shape: true;
+    -fx-padding: 0.73333em;
+}
+
+#list-place-holder-title {
+    -fx-font-family: serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;
+}
+
+.chart-pie:hover {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
